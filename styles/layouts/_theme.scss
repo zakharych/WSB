@@ -1,0 +1,73 @@
+
+$black: #000107;
+$green: #93c11a;
+
+@mixin csgo {
+  color: $csgo;
+}
+@mixin dota {
+  color: $dota;
+}
+@mixin lol {
+  color: $lol;
+}
+
+// .section--invisible {
+//   display: none;
+// }
+// .section-title {
+//   text-align: center;
+//   margin-bottom: 64px;
+//   text-transform: uppercase;
+// }
+
+// .section__title {
+//   text-align: left;
+//   color: $yellow;
+//   text-transform: uppercase;
+//   position: relative;
+//   letter-spacing: 0.05em;
+//   line-height: 1;
+//   margin-bottom: 6px;
+  
+//   // animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+//   animation-duration: 1s;
+
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     z-index: 10;
+//     top: 50%;
+//     left: -137px;
+//     background-color: $yellow;
+//     width: 120px;
+//     height: 2px;
+//     transform: translate(0, -50%);
+//   }
+//   &--margin {
+//     margin-bottom: 108px;
+//   }
+//   &--csgo {
+//     @include csgo;
+//     &::before {
+//       background-color: $csgo;
+//     }
+//   }
+//   &--dota {
+//     @include dota;
+//     &::before {
+//       background-color: $dota;
+//     }
+//   }
+//   &--lol {
+//     @include lol;
+//     &::before {
+//       background-color: $lol;
+//     }
+//   }
+// }
+// .section__subtitle {
+//   text-align: left;
+//   margin-bottom: 28px;
+//   font-size: 21px;
+// }
