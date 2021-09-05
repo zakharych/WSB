@@ -1,0 +1,41 @@
+.service {
+  margin-bottom: 70px;
+}
+.service__list {
+  display: flex;
+  flex-wrap: wrap;  
+  margin-bottom:-25px;
+}
+
+.service__item {
+  width: 278px;
+  height: 278px;
+  margin-right: 19px;
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+  margin-bottom: 25px;
+  border: 3px solid $green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.service__icon {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.service__img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.service__title {
+  font-size: 14px;
+}
