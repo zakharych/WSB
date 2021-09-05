@@ -652,7 +652,6 @@ h3 {
   background-color: #93c11a;
   border: 3px solid #93c11a;
   transition: 0.3s ease-in-out;
-  cursor: pointer;
 }
 
 .tagline-item:nth-child(4n) {
@@ -678,7 +677,6 @@ h3 {
   border: none;
   border-left: 5px solid #93c11a;
   background-color: transparent;
-  cursor: unset;
 }
 
 .tagline-item--static .tagline-text {
@@ -721,6 +719,80 @@ h3 {
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+.disciplines {
+  margin-bottom: 89px;
+}
+
+.disciplines__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.disciplines__item {
+  display: flex;
+  position: relative;
+  width: 294px;
+  height: 276px;
+  overflow: hidden;
+}
+
+.disciplines__item:hover .disciplines__img {
+  transform: scale(1.4);
+}
+
+.disciplines__item:hover .disciplines__category {
+  background: rgba(105, 128, 45, 0.5);
+  border-color: #93c11a;
+  padding-bottom: 8px;
+  color: white;
+}
+
+.disciplines__item:hover .disciplines__icon-pic {
+  filter: brightness(100) contrast(200);
+}
+
+.disciplines__category {
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #93c11a;
+  border: 3px solid transparent;
+}
+
+.disciplines__name {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.disciplines__img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease-in-out 0.3s;
+}
+
+.disciplines__icon {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.disciplines__icon-pic {
+  transition: all ease-in-out 0.1s;
 }
 
 .form-section {
