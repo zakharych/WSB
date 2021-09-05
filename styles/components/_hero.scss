@@ -1,0 +1,26 @@
+.hero {
+  max-width: 1920px;
+  background-image: url(./assets/img/hero.png);
+  height: 640px;
+  margin-bottom: 64px;
+}
+.hero__text {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero__title {
+  font-weight: bold;
+  font-size: 90px;
+  width: 500px;
+  text-transform: uppercase;
+  line-height: 111.19%;
+  margin-bottom: 26px;
+}
+
+.hero__subtitle {
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
