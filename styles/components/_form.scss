@@ -1,0 +1,53 @@
+.form-section {
+  background-color: $grey;
+  color: #ffffff;
+  padding: 55px 0;
+}
+.subscribe-title {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+.subscribe-socials {
+  margin-right: 32px;
+  width: 100%;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+.subscribe-form-item__control {
+  min-height: 77px;
+  padding: 14px 44px;
+  border-radius: 10px;
+  border: none;
+  line-height: normal;
+  letter-spacing: -1.2px;
+  color: #A4A4A4;
+
+  &::placeholder {
+    color: #A4A4A4;
+    // font-style: italic;
+  }
+}
+.subscribe-form-item__label {
+  margin: auto;
+  margin-right: 70px;
+  white-space: nowrap;
+}
+
+.subscribe-form-item--input-email {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-form-item__btn {
+  padding: 20px 90px;
+  font-size: 24px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,23 @@
+.about {
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+  &__pic {
+    margin-top: 2px;
+    margin-right: 22px;
+    flex-shrink: 0;
+    width: 376px;
+    height: 252px;
+    overflow: hidden;
+  }
+  &__img {
+    height: 100%;
+    width: 100%;
+  }
+  &__description {
+    font-size: 20px;
+    letter-spacing: 0.24px;
+    line-height: 26px;
+  }
+}
