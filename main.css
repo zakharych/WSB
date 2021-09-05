@@ -630,6 +630,99 @@ h3 {
   grid-row: span 2;
 }
 
+.corporate-sports {
+  margin-bottom: 65px;
+}
+
+.taglines {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tagline-item {
+  position: relative;
+  padding: 0 22px;
+  width: 278px;
+  height: 278px;
+  margin-right: 19px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #93c11a;
+  border: 3px solid #93c11a;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.tagline-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.tagline-item:hover {
+  background-color: transparent;
+}
+
+.tagline-item:hover .tagline-icon {
+  background-color: transparent;
+  opacity: 0;
+}
+
+.tagline-item:hover .tagline-text {
+  opacity: 1;
+}
+
+.tagline-item--static {
+  padding: 0;
+  padding-left: 18px;
+  border: none;
+  border-left: 5px solid #93c11a;
+  background-color: transparent;
+  cursor: unset;
+}
+
+.tagline-item--static .tagline-text {
+  text-align: start;
+  opacity: 1;
+  color: #93c11a;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: -0.3px;
+}
+
+.tagline-text {
+  font-size: 16px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity ease-in-out 1s;
+}
+
+.tagline-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  opacity: 1;
+  background-color: #93c11a;
+  transition: opacity ease-in-out 0.3s;
+}
+
+.tagline-icon-wrapper {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.tagline-icon__pic {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 .form-section {
   background-color: #3E3E3E;
   color: #ffffff;

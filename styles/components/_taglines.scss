@@ -1,0 +1,85 @@
+.corporate-sports {
+  margin-bottom: 65px;
+}
+
+.taglines {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tagline-item {
+  position: relative;
+  padding: 0 22px;
+  width: 278px;
+  height: 278px;
+  margin-right: 19px;
+  margin-bottom: 20px;
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $green;
+  border: 3px solid $green;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: transparent;
+    & .tagline-icon {
+      background-color: transparent;
+      opacity: 0;
+    }
+    & .tagline-text {
+      opacity: 1;
+    }
+  }
+  &--static {
+    padding: 0;
+    padding-left: 18px;
+    border: none;
+    border-left: 5px solid $green;
+    background-color: transparent;
+    cursor: unset;
+    & .tagline-text {
+      text-align: start;
+      opacity: 1;
+      color: $green;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 17px;
+      letter-spacing: -0.3px;
+    }
+  }
+}
+.tagline-text {
+  font-size: 16px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity ease-in-out 1s;
+}
+
+.tagline-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  opacity: 1;
+  background-color: $green;
+  transition: opacity ease-in-out 0.3s;
+}
+
+.tagline-icon-wrapper {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.tagline-icon__pic {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
