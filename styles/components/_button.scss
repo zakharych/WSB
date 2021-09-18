@@ -1,6 +1,5 @@
 .button {
-  // padding: 8px 19px;
-  border: 5px solid $green;
+  border: 3px solid $green;
   border-radius: 15px;
   padding: 8px 8px;
   background-color: transparent;
@@ -10,34 +9,6 @@
   transition: 0.4s;
   white-space: nowrap;
   text-align: center;
-
-  // &--csgo {
-  //   border-color: $csgo;
-  //   color: $csgo;
-  //   &.button {
-  //     &:hover {
-  //       background-color: $csgo;
-  //     }
-  //   }
-  // }
-  // &--dota {
-  //   border-color: $dota;
-  //   color: $dota;
-  //   &.button {
-  //     &:hover {
-  //       background-color: $dota;
-  //     }
-  //   }
-  // }
-  // &--lol {
-  //   border-color: $lol;
-  //   color: $lol;
-  //   &.button {
-  //     &:hover {
-  //       background-color: $lol;
-  //     }
-  //   }
-  // }
 
   &:hover {
     background-color: $green;
@@ -67,36 +38,6 @@
         background-color: $green;
       }
     }
-    // &-game {
-    //   width: 142px;
-    //   &--csgo {
-    //     background: center 40%/80% no-repeat
-    //       url('https://it-events.com/system/attachments/files/000/002/094/original/CSGO_logo.svg');
-
-    //     // &.button__active {
-    //     //   background-color: $csgo;
-    //     //   border-color: $csgo;
-    //     // }
-    //   }
-    //   &--dota {
-    //     background: center 50%/80% no-repeat
-    //       url('https://it-events.com/system/attachments/files/000/002/089/original/Dota2_logo.svg');
-
-    //     &.button__active {
-    //       background-color: $dota;
-    //       border-color: $dota;
-    //     }
-    //   }
-    //   &--lol {
-    //     background: center 50%/80% no-repeat
-    //       url('https://it-events.com/system/attachments/files/000/002/085/original/LoL_logo.svg');
-
-    //     &.button__active {
-    //       background-color: $lol;
-    //       border-color: $lol;
-    //     }
-    //   }
-    // }
   }
 }
 
