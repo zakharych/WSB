@@ -48,8 +48,12 @@
             </li>
           </ul>
           <div class="langauge">
-            <div class="langauge__item active"><a class="langauge__link" href="#">RU</a></div>
-            <div class="langauge__item">EN</div>
+            <div class="langauge__item active" attr-lang="RU">
+              <a class="langauge__link" href="#">RU</a>
+            </div>
+            <div class="langauge__item" attr-lang="EN">
+              <a class="langauge__link" href="#">EN</a>
+            </div>
           </div>
         </div>
       </div>
@@ -474,6 +478,34 @@
         </div>
       </div>
     </section>
+    <section class="section reviews__section">
+      <div class="wrapper">
+        <h2 class="section__title reviews__title">НАШИ КЛИЕНТЫ</h2>
+        <div class="slider__list" id="items2"></div>
+        <div class="sponsors__slider">
+          <a class="arrow" id="left" href="#">
+            <img
+              src="	https://it-events.com/system/attachments/files/000/002/026/original/left_arrow_grey.svg"
+              alt="<"
+              class="arrow__img"
+            />
+          </a>
+          <div class="slider">
+            <ul class="slider__list" id="items"></ul>
+          </div>
+          <a class="arrow" id="right" href="#">
+            <img
+              src="	https://it-events.com/system/attachments/files/000/002/027/original/right_arrow_grey.svg"
+              alt=">"
+              class="arrow__img"
+            />
+          </a>
+        </div>
+        <div class="reviews">
+          <ul class="reviews__list"></ul>
+        </div>
+      </div>
+    </section>
     <section class="section form-section">
       <div class="wrapper">
         <h3 class="subscribe-title">ПОДПИСАТЬСЯ НА НОВОСТИ</h3>
@@ -538,7 +570,6 @@
     </section>
     <section class="contacts-section section" id="contacts">
       <div class="wrapper">
-        <!-- <h2 class="section-title contacts-section__title">КОНТАКТЫ ОРГАНИЗАТОРОВ</h2> -->
         <div class="contacts">
           <ul class="contacts__list">
             <li class="contacts__item">
@@ -585,6 +616,7 @@
         </div>
       </div>
     </section>
+
     <section class="section footer-menu-section">
       <div class="wrapper">
         <div class="footer-menu">
@@ -636,5 +668,16 @@
         </div>
       </div>
     </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://it-events.com/system/attachments/files/000/002/030/original/slick.min.js"></script>
+
+    <script src="./js/partnersSlider.js"></script>
+    <script src="./js/reviesSlider.js"></script>
   </body>
 </html>
