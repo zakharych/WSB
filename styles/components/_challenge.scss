@@ -92,10 +92,45 @@
 
   background-color: transparent;
   border: 2px solid $green;
-  &--wide {
-    min-width: 278px;
-  }
   &:hover {
     background-color: $green;
+    background-image: url(./assets/img/twitter_icon_black.svg);
+  }
+
+  &--wide {
+    min-width: 278px;
+    background-image: none;
+    &:hover {
+      background-image: none;
+    }
+  }
+
+  &-vk {
+    &:hover {
+      background-image: url(./assets/img/vk_icon_black.svg);
+    }
+  }
+
+  &-fb {
+    &:hover {
+      background-image: url(./assets/img/facebook_icon_black.svg);
+    }
+  }
+
+  &-yb {
+    &:hover {
+      background-image: url(./assets/img/youtube_icon_black.svg);
+    }
+  }
+
+  &-tg {
+    &:hover {
+      background-image: url(./assets/img/telegram_icon_black.svg);
+    }
+  }
+  &-in {
+    &:hover {
+      background-image: url(./assets/img/instagram_icon_black.svg);
+    }
   }
 }
